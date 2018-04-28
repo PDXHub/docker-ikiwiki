@@ -15,7 +15,9 @@ RUN apt-get update \
 		xapian-omega \
 		libsearch-xapian-perl \
 		libdigest-sha-perl \
-		libhtml-scrubber-perl
+		libhtml-scrubber-perl \
+		texlive-latex-base \
+		dvipng
 #_______________________________________________________________________________
 
 # Configuration and Scripts ____________________________________________________
