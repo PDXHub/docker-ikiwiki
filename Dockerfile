@@ -12,9 +12,9 @@ RUN apt-get update \
 	&& rm -rf /var/lib/apt/lists/*
 RUN apt-get update \
         && apt-get install -y \
-		xapian-omega
-		libsearch-xapian-perl
-		libdigest-sha-perl
+		xapian-omega \
+		libsearch-xapian-perl \
+		libdigest-sha-perl \
 		libhtml-scrubber-perl
 #_______________________________________________________________________________
 
