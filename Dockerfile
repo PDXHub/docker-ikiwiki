@@ -15,7 +15,7 @@ RUN apt-get update \
 		libhtml-scrubber-perl \
 		texlive-latex-base \
 		dvipng \
-		graphviz
+		graphviz \
 	&& rm -rf /var/lib/apt/lists/*
 #_______________________________________________________________________________
 
